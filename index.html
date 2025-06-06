@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Avançada</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="./JS/script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="todo-container">
+        <header>
+            <h1>TODO DO BRUNO</h1>
+        </header>
+        <form action="" class="todo-form">
+            <p>Adicione sua tarefa:</p>
+            <div class="alinha-form">
+                <input type="text" id="input-todo" placeholder="Qual a sua tarefa?">
+                <button type="submit"><i class="fa-thin fa-plus"></i></button>
+
+            </div>
+        </form>
+        <form action="" class="edit hide">
+            <p>Edite a sua tarefa</p>
+            <div class="alinha-form">
+                <input type="text" id="input-edit">
+                <button type="submit"><i class="fa-solid fa-check-double"></i></button>
+            </div>
+            <button id="cancel-edit">Cancelar </button>
+        </form>
+        <div class="toolbar">
+            <div id="search">
+                <h4>Pesquisar</h4>
+                <form action="">
+                    <input type="text" placeholder="Buscar" id="input-search">
+                    <button id="eraser"><i class="fa-solid fa-delete-left"></i></button>
+                </form>
+            </div>
+            <div id="filter">
+                <h4>Filtrar:</h4>
+                <select name="" id="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="feitos">Feitas</option>
+                    <option value="todo">A Fazer</option>
+                </select>
+            </div>
+        </div>
+        <div id="todo-list">
+
+        </div>
+    </div>
+</body>
+
+</html>
