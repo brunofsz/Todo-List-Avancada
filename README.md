@@ -26,27 +26,19 @@ Este é um projeto de uma **lista de tarefas (To-do List) avançada** desenvolvi
 
 ## 💻 Como usar
 
-- Abra o arquivo `index.html` no seu navegador
+- Abra o link `https://brunofsz.github.io/Todo-List-Avancada/` no seu navegador
 
   OU
 
-1. Clone este repositório:
-
-   ```bash
-   git clone https://github.com/brunofsz/Todo-List-Avancada.git
-   ```
-
+1. Clone este repositório
+   
 2. Navegue até a pasta do projeto:
 
-   ```bash
-   cd Todo-List-Avancada
-   ```
-
-3. Abra o arquivo `index.html` com o navegador de sua preferência.
+4. Abra o arquivo `index.html` com o navegador de sua preferência.
 
 ## 📸 Preview
 
+![Preview](assets/Preview.png)
 
 
-> ⚠️ Dica: Para uma visualização mais clara da aplicação, substitua o preview por uma imagem real da interface com tarefas preenchidas.
 
